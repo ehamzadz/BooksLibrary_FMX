@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/30 21:53:18.000.049,=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/01 00:33:17.446,=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/01 00:35:42.923,C:\Users\eHamzaDZ\Desktop\New folder\loading.pas=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/01 00:35:42.923,C:\Users\eHamzaDZ\Desktop\New folder\loading.fmx=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2022/05/01 00:36:05.994,C:\Users\eHamzaDZ\Desktop\New folder\LibraryBooks.dproj=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android64="33006584c0c9a38d" Android="33006584c0c9a38d"/>
+  </ActiveMobileDevice>
+</BorlandProject>
