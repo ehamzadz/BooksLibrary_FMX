@@ -41,60 +41,50 @@ inherited Form2_SmXhdpiPh: TForm2_SmXhdpiPh
     Stroke.Kind = None
     inherited GridPanelLayout1: TGridPanelLayout
       Size.Width = 220.000000000000000000
-      inherited Rectangle2: TRectangle [0]
+      inherited Rectangle3: TRectangle
         Margins.Left = 10.000000000000000000
         Margins.Top = 2.000000000000000000
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 2.000000000000000000
-        inherited home_img_black: TImage [0]
+        inherited Image2: TImage
           MultiResBitmap.Height = 763
           MultiResBitmap.Width = 558
-        end
-        inherited Rectangle7: TRectangle [1]
         end
       end
-      inherited Rectangle3: TRectangle [1]
+      inherited Rectangle4: TRectangle
         Margins.Left = 10.000000000000000000
         Margins.Top = 2.000000000000000000
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 2.000000000000000000
-        inherited Image2: TImage [0]
+        inherited Image3: TImage
           MultiResBitmap.Height = 763
           MultiResBitmap.Width = 558
-        end
-        inherited Rectangle8: TRectangle [1]
         end
       end
-      inherited Rectangle4: TRectangle [2]
+      inherited Rectangle5: TRectangle
         Margins.Left = 10.000000000000000000
         Margins.Top = 2.000000000000000000
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 2.000000000000000000
-        inherited Image3: TImage [0]
+        inherited Image4: TImage
           MultiResBitmap.Height = 763
           MultiResBitmap.Width = 558
-        end
-        inherited Rectangle9: TRectangle [1]
         end
       end
-      inherited Rectangle5: TRectangle [3]
+      inherited Rectangle2: TRectangle
         Margins.Left = 10.000000000000000000
         Margins.Top = 2.000000000000000000
         Margins.Right = 10.000000000000000000
         Margins.Bottom = 2.000000000000000000
-        inherited Image4: TImage [0]
+        inherited home_img_black: TImage
           MultiResBitmap.Height = 763
           MultiResBitmap.Width = 558
-        end
-        inherited Rectangle10: TRectangle [1]
         end
       end
       inherited Rectangle6: TRectangle
-        inherited Image1: TImage [0]
+        inherited Image1: TImage
           MultiResBitmap.Height = 763
           MultiResBitmap.Width = 558
-        end
-        inherited Rectangle11: TRectangle [1]
         end
       end
     end
