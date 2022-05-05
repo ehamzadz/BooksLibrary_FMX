@@ -1,0 +1,16 @@
+program LibraryBooks;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  loading in 'loading.pas' {frmLoading},
+  load in 'load.pas' {frmLoad};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmLoad, frmLoad);
+  Application.CreateForm(TfrmLoading, frmLoading);
+  Application.Run;
+end.

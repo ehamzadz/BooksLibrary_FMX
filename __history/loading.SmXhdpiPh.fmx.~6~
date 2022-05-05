@@ -1,0 +1,167 @@
+inherited Form2_SmXhdpiPh: TForm2_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    Size.Width = 250.000000000000000000
+    Size.Height = 375.000000000000000000
+    inherited Tab: TTabControl
+      Size.Width = 250.000000000000000000
+      Size.Height = 375.000000000000000000
+      Sizes = (
+        250s
+        375s
+        250s
+        375s
+        250s
+        375s
+        250s
+        375s
+        250s
+        375s)
+      inherited TabItem1: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited VertScrollBox1: TVertScrollBox
+          Size.Width = 250.000000000000000000
+          Size.Height = 375.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 375.000000000000000000
+          inherited Text1: TText
+            Size.Width = 250.000000000000000000
+            Size.Height = 375.000000000000000000
+          end
+        end
+      end
+      inherited TabItem2: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited VertScrollBox2: TVertScrollBox
+          Size.Width = 250.000000000000000000
+          Size.Height = 375.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 375.000000000000000000
+          inherited Text2: TText
+            Size.Width = 250.000000000000000000
+            Size.Height = 375.000000000000000000
+          end
+        end
+      end
+      inherited TabItem3: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited VertScrollBox3: TVertScrollBox
+          Size.Width = 250.000000000000000000
+          Size.Height = 375.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 375.000000000000000000
+          inherited Text3: TText
+            Size.Width = 220.000000000000000000
+            inherited Switch1: TSwitch
+              Position.X = 176.000000000000000000
+              Size.Height = 33.000000000000000000
+            end
+          end
+          inherited MemoLog: TMemo
+            Viewport.Width = 330.000000000000000000
+            Viewport.Height = 418.000000000000000000
+          end
+        end
+      end
+      inherited TabItem4: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited VertScrollBox4: TVertScrollBox
+          Size.Width = 250.000000000000000000
+          Size.Height = 375.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 375.000000000000000000
+          inherited Text4: TText
+            Size.Width = 250.000000000000000000
+            Size.Height = 375.000000000000000000
+          end
+          inherited Rectangle12: TRectangle
+            Size.Width = 210.000000000000000000
+            inherited SpeedButton1: TSpeedButton
+              Position.X = 162.000000000000000000
+              Size.Height = 50.000000000000000000
+            end
+          end
+        end
+      end
+      inherited TabItem5: TTabItem
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        inherited VertScrollBox5: TVertScrollBox
+          Size.Width = 250.000000000000000000
+          Size.Height = 375.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 375.000000000000000000
+        end
+      end
+    end
+  end
+  inherited Rectangle13: TRectangle
+    Position.Y = 288.000000000000000000
+    Size.Width = 250.000000000000000000
+    inherited tabs: TRectangle
+      Size.Width = 220.000000000000000000
+      inherited GridPanelLayout1: TGridPanelLayout
+        Size.Width = 216.000000000000000000
+        inherited Rectangle3: TRectangle
+          Size.Width = 43.200000762939450000
+          inherited Rectangle8: TRectangle
+            Size.Width = 43.200000762939450000
+          end
+          inherited Image2: TImage
+            MultiResBitmap.Height = 763
+            MultiResBitmap.Width = 558
+          end
+        end
+        inherited Rectangle4: TRectangle
+          Size.Width = 43.200004577636720000
+          inherited Rectangle9: TRectangle
+            Size.Width = 43.200004577636720000
+          end
+          inherited Image3: TImage
+            MultiResBitmap.Height = 763
+            MultiResBitmap.Width = 558
+          end
+        end
+        inherited Rectangle5: TRectangle
+          Size.Width = 43.199996948242190000
+          inherited Rectangle10: TRectangle
+            Size.Width = 43.199996948242190000
+          end
+          inherited Image4: TImage
+            MultiResBitmap.Height = 763
+            MultiResBitmap.Width = 558
+          end
+        end
+        inherited Rectangle2: TRectangle
+          Size.Width = 43.200000762939450000
+          inherited Rectangle7: TRectangle
+            Size.Width = 43.200000762939450000
+            inherited current: TRoundRect
+              Size.Width = 3.200000762939453000
+            end
+          end
+          inherited home_img_black: TImage
+            MultiResBitmap.Height = 763
+            MultiResBitmap.Width = 558
+          end
+        end
+        inherited Rectangle6: TRectangle
+          Size.Width = 43.200012207031250000
+          inherited Rectangle11: TRectangle
+            Size.Width = 43.200012207031250000
+          end
+          inherited Image1: TImage
+            MultiResBitmap.Height = 763
+            MultiResBitmap.Width = 558
+          end
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,92 @@
+inherited Form2_SmXhdpiPh: TForm2_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    Size.Width = 250.000000000000000000
+    Size.Height = 375.000000000000000000
+    inherited TabControl1: TTabControl
+      Size.Width = 250.000000000000000000
+      Size.Height = 375.000000000000000000
+      Sizes = (
+        250s
+        375s
+        250s
+        375s
+        250s
+        375s)
+      inherited TabItem1: TTabItem
+        ExplicitSize.cx = 250.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited VertScrollBox1: TVertScrollBox
+          Size.Width = 250.000000000000000000
+          Size.Height = 375.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 375.000000000000000000
+        end
+      end
+      inherited TabItem2: TTabItem
+        ExplicitSize.cx = 125.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+      end
+      inherited TabItem3: TTabItem
+        ExplicitSize.cx = 84.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+      end
+    end
+  end
+  inherited tabs: TRectangle
+    Position.Y = 310.000000000000000000
+    Size.Width = 220.000000000000000000
+    Stroke.Kind = None
+    inherited GridPanelLayout1: TGridPanelLayout
+      Size.Width = 220.000000000000000000
+      inherited Rectangle3: TRectangle
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        inherited Image2: TImage
+          MultiResBitmap.Height = 763
+          MultiResBitmap.Width = 558
+        end
+      end
+      inherited Rectangle4: TRectangle
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        inherited Image3: TImage
+          MultiResBitmap.Height = 763
+          MultiResBitmap.Width = 558
+        end
+      end
+      inherited Rectangle5: TRectangle
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        inherited Image4: TImage
+          MultiResBitmap.Height = 763
+          MultiResBitmap.Width = 558
+        end
+      end
+      inherited Rectangle2: TRectangle
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        inherited home_img_black: TImage
+          MultiResBitmap.Height = 763
+          MultiResBitmap.Width = 558
+        end
+      end
+      inherited Rectangle6: TRectangle
+        inherited Image1: TImage
+          MultiResBitmap.Height = 763
+          MultiResBitmap.Width = 558
+        end
+      end
+    end
+  end
+end
