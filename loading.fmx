@@ -31,27 +31,27 @@ object frmLoading: TfrmLoading
       Size.Height = 720.000000000000000000
       Size.PlatformDefault = False
       TabHeight = 49.000000000000000000
-      TabIndex = 0
+      TabIndex = 3
       TabOrder = 0
-      TabPosition = None
+      TabPosition = Top
       Sizes = (
         360s
-        720s
+        671s
         360s
-        720s
+        671s
         360s
-        720s
+        671s
         360s
-        720s
+        671s
         360s
-        720s)
+        671s)
       object TabItem1: TTabItem
         CustomIcon = <
           item
           end>
-        IsSelected = True
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        IsSelected = False
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -61,15 +61,15 @@ object frmLoading: TfrmLoading
         object VertScrollBox1: TVertScrollBox
           Align = Client
           Size.Width = 360.000000000000000000
-          Size.Height = 720.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text1: TText
             Align = Contents
             Size.Width = 360.000000000000000000
-            Size.Height = 720.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Home'
           end
@@ -80,8 +80,8 @@ object frmLoading: TfrmLoading
           item
           end>
         IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -91,15 +91,15 @@ object frmLoading: TfrmLoading
         object VertScrollBox2: TVertScrollBox
           Align = Client
           Size.Width = 360.000000000000000000
-          Size.Height = 720.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text2: TText
             Align = Client
             Size.Width = 360.000000000000000000
-            Size.Height = 720.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Shop'
           end
@@ -110,8 +110,8 @@ object frmLoading: TfrmLoading
           item
           end>
         IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -121,11 +121,11 @@ object frmLoading: TfrmLoading
         object VertScrollBox3: TVertScrollBox
           Align = Client
           Size.Width = 360.000000000000000000
-          Size.Height = 720.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text3: TText
             Align = Top
             Margins.Left = 15.000000000000000000
@@ -165,8 +165,8 @@ object frmLoading: TfrmLoading
             Size.PlatformDefault = False
             TabOrder = 1
             Visible = False
-            Viewport.Width = 330.000000000000000000
-            Viewport.Height = 418.000000000000000000
+            Viewport.Width = 322.000000000000000000
+            Viewport.Height = 410.000000000000000000
           end
         end
       end
@@ -174,9 +174,9 @@ object frmLoading: TfrmLoading
         CustomIcon = <
           item
           end>
-        IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        IsSelected = True
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -186,21 +186,21 @@ object frmLoading: TfrmLoading
         object VertScrollBox4: TVertScrollBox
           Align = Client
           Size.Width = 360.000000000000000000
-          Size.Height = 720.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text4: TText
             Align = Contents
             Size.Width = 360.000000000000000000
-            Size.Height = 720.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Search'
           end
           object Rectangle12: TRectangle
             Align = Top
-            Fill.Color = claWhite
+            Fill.Kind = None
             Margins.Left = 20.000000000000000000
             Margins.Top = 20.000000000000000000
             Margins.Right = 20.000000000000000000
@@ -213,16 +213,25 @@ object frmLoading: TfrmLoading
             Stroke.Color = xFFD9D9D9
             XRadius = 25.000000000000000000
             YRadius = 25.000000000000000000
-            object SpeedButton1: TSpeedButton
-              Align = Right
-              Cursor = crHandPoint
-              Position.X = 272.000000000000000000
-              Position.Y = 1.000000000000000000
-              Size.Width = 48.000000000000000000
-              Size.Height = 48.000000000000000000
+            object Edit1: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              StyleLookup = 'edLogin'
+              TabOrder = 0
+              Size.Width = 320.000000000000000000
+              Size.Height = 50.000000000000000000
               Size.PlatformDefault = False
-              StyleLookup = 'searchtoolbutton'
-              Text = 'SpeedButton1'
+              object SpeedButton1: TSpeedButton
+                Align = Right
+                Cursor = crHandPoint
+                Position.X = 272.000000000000000000
+                Position.Y = 1.000000000000000000
+                Size.Width = 48.000000000000000000
+                Size.Height = 48.000000000000000000
+                Size.PlatformDefault = False
+                StyleLookup = 'searchtoolbutton'
+                Text = 'SpeedButton1'
+              end
             end
           end
         end
@@ -232,8 +241,8 @@ object frmLoading: TfrmLoading
           item
           end>
         IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -243,15 +252,15 @@ object frmLoading: TfrmLoading
         object VertScrollBox5: TVertScrollBox
           Align = Client
           Size.Width = 360.000000000000000000
-          Size.Height = 720.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text5: TText
             Align = Client
             Size.Width = 360.000000000000000000
-            Size.Height = 720.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Settings'
           end
@@ -4443,5 +4452,12 @@ object frmLoading: TfrmLoading
       end>
     Left = 48
     Top = 521
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 264
+    Top = 264
   end
 end

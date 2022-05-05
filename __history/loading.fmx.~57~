@@ -1,9 +1,9 @@
-object Form2: TForm2
+object frmLoading: TfrmLoading
   Left = 0
   Top = 0
   Caption = 'Form2'
-  ClientHeight = 639
-  ClientWidth = 358
+  ClientHeight = 720
+  ClientWidth = 360
   Transparency = True
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -11,40 +11,47 @@ object Form2: TForm2
   FullScreen = True
   OnCreate = FormCreate
   DesignerMasterStyle = 3
+  object TBrushObject
+    StyleName = 'light grey'
+  end
+  object light_grey: TBrushObject
+    StyleName = 'light_grey'
+    Brush.Color = xFFEEEEEE
+  end
   object Rectangle1: TRectangle
     Align = Contents
     Fill.Color = xFFEEEEEE
-    Size.Width = 358.000000000000000000
-    Size.Height = 639.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 720.000000000000000000
     Size.PlatformDefault = False
     Stroke.Kind = None
     object Tab: TTabControl
       Align = Contents
-      Size.Width = 358.000000000000000000
-      Size.Height = 639.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 720.000000000000000000
       Size.PlatformDefault = False
       TabHeight = 49.000000000000000000
-      TabIndex = 0
+      TabIndex = 3
       TabOrder = 0
-      TabPosition = None
+      TabPosition = Top
       Sizes = (
-        358s
-        639s
-        358s
-        639s
-        358s
-        639s
-        358s
-        639s
-        358s
-        639s)
+        360s
+        671s
+        360s
+        671s
+        360s
+        671s
+        360s
+        671s
+        360s
+        671s)
       object TabItem1: TTabItem
         CustomIcon = <
           item
           end>
-        IsSelected = True
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        IsSelected = False
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -53,16 +60,16 @@ object Form2: TForm2
         ExplicitSize.cy = 8.000000000000000000
         object VertScrollBox1: TVertScrollBox
           Align = Client
-          Size.Width = 358.000000000000000000
-          Size.Height = 639.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
-          Viewport.Width = 358.000000000000000000
-          Viewport.Height = 639.000000000000000000
+          Viewport.Width = 360.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text1: TText
             Align = Contents
-            Size.Width = 358.000000000000000000
-            Size.Height = 639.000000000000000000
+            Size.Width = 360.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Home'
           end
@@ -73,8 +80,8 @@ object Form2: TForm2
           item
           end>
         IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -83,16 +90,16 @@ object Form2: TForm2
         ExplicitSize.cy = 8.000000000000000000
         object VertScrollBox2: TVertScrollBox
           Align = Client
-          Size.Width = 358.000000000000000000
-          Size.Height = 639.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
-          Viewport.Width = 358.000000000000000000
-          Viewport.Height = 639.000000000000000000
+          Viewport.Width = 360.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text2: TText
             Align = Client
-            Size.Width = 358.000000000000000000
-            Size.Height = 639.000000000000000000
+            Size.Width = 360.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Shop'
           end
@@ -103,8 +110,8 @@ object Form2: TForm2
           item
           end>
         IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -113,12 +120,12 @@ object Form2: TForm2
         ExplicitSize.cy = 8.000000000000000000
         object VertScrollBox3: TVertScrollBox
           Align = Client
-          Size.Width = 358.000000000000000000
-          Size.Height = 639.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
-          Viewport.Width = 358.000000000000000000
-          Viewport.Height = 639.000000000000000000
+          Viewport.Width = 360.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text3: TText
             Align = Top
             Margins.Left = 15.000000000000000000
@@ -126,14 +133,14 @@ object Form2: TForm2
             Margins.Right = 15.000000000000000000
             Position.X = 15.000000000000000000
             Position.Y = 15.000000000000000000
-            Size.Width = 328.000000000000000000
+            Size.Width = 330.000000000000000000
             Size.Height = 33.000000000000000000
             Size.PlatformDefault = False
             Text = 'Notifications'
             object Switch1: TSwitch
               Align = Right
               IsChecked = False
-              Position.X = 284.000000000000000000
+              Position.X = 286.000000000000000000
               Position.Y = 4.000000000000000000
               Size.Width = 44.000000000000000000
               Size.Height = 26.000000000000000000
@@ -167,9 +174,9 @@ object Form2: TForm2
         CustomIcon = <
           item
           end>
-        IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        IsSelected = True
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -178,16 +185,16 @@ object Form2: TForm2
         ExplicitSize.cy = 8.000000000000000000
         object VertScrollBox4: TVertScrollBox
           Align = Client
-          Size.Width = 358.000000000000000000
-          Size.Height = 639.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
-          Viewport.Width = 358.000000000000000000
-          Viewport.Height = 639.000000000000000000
+          Viewport.Width = 360.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text4: TText
             Align = Contents
-            Size.Width = 358.000000000000000000
-            Size.Height = 639.000000000000000000
+            Size.Width = 360.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Search'
           end
@@ -200,7 +207,7 @@ object Form2: TForm2
             Margins.Bottom = 20.000000000000000000
             Position.X = 20.000000000000000000
             Position.Y = 20.000000000000000000
-            Size.Width = 318.000000000000000000
+            Size.Width = 320.000000000000000000
             Size.Height = 50.000000000000000000
             Size.PlatformDefault = False
             Stroke.Color = xFFD9D9D9
@@ -209,13 +216,23 @@ object Form2: TForm2
             object SpeedButton1: TSpeedButton
               Align = Right
               Cursor = crHandPoint
-              Position.X = 270.000000000000000000
+              Position.X = 272.000000000000000000
               Position.Y = 1.000000000000000000
               Size.Width = 48.000000000000000000
               Size.Height = 48.000000000000000000
               Size.PlatformDefault = False
               StyleLookup = 'searchtoolbutton'
               Text = 'SpeedButton1'
+            end
+            object Edit1: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              StyleLookup = 'clearingeditstyle'
+              TabOrder = 0
+              Margins.Left = 20.000000000000000000
+              Size.Width = 252.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
             end
           end
         end
@@ -225,8 +242,8 @@ object Form2: TForm2
           item
           end>
         IsSelected = False
-        Size.Width = 8.000000000000000000
-        Size.Height = 8.000000000000000000
+        Size.Width = 72.000000000000000000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         StyleLookup = ''
         TabOrder = 0
@@ -235,16 +252,16 @@ object Form2: TForm2
         ExplicitSize.cy = 8.000000000000000000
         object VertScrollBox5: TVertScrollBox
           Align = Client
-          Size.Width = 358.000000000000000000
-          Size.Height = 639.000000000000000000
+          Size.Width = 360.000000000000000000
+          Size.Height = 671.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
-          Viewport.Width = 358.000000000000000000
-          Viewport.Height = 639.000000000000000000
+          Viewport.Width = 360.000000000000000000
+          Viewport.Height = 671.000000000000000000
           object Text5: TText
             Align = Client
-            Size.Width = 358.000000000000000000
-            Size.Height = 639.000000000000000000
+            Size.Width = 360.000000000000000000
+            Size.Height = 671.000000000000000000
             Size.PlatformDefault = False
             Text = 'Settings'
           end
@@ -255,8 +272,8 @@ object Form2: TForm2
   object Rectangle13: TRectangle
     Align = Bottom
     Fill.Kind = None
-    Position.Y = 552.000000000000000000
-    Size.Width = 358.000000000000000000
+    Position.Y = 633.000000000000000000
+    Size.Width = 360.000000000000000000
     Size.Height = 87.000000000000000000
     Size.PlatformDefault = False
     Stroke.Kind = None
@@ -267,7 +284,7 @@ object Form2: TForm2
       Margins.Top = 15.000000000000000000
       Margins.Right = 15.000000000000000000
       Margins.Bottom = 15.000000000000000000
-      Size.Width = 328.000000000000000000
+      Size.Width = 330.000000000000000000
       Size.Height = 57.000000000000000000
       Size.PlatformDefault = False
       Stroke.Color = xFFEAEAEA
@@ -279,7 +296,7 @@ object Form2: TForm2
         Margins.Top = 2.000000000000000000
         Margins.Right = 2.000000000000000000
         Margins.Bottom = 2.000000000000000000
-        Size.Width = 324.000000000000000000
+        Size.Width = 326.000000000000000000
         Size.Height = 53.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
@@ -332,7 +349,7 @@ object Form2: TForm2
         object Rectangle3: TRectangle
           Align = Client
           Fill.Color = claWhite
-          Size.Width = 64.800003051757810000
+          Size.Width = 65.199996948242190000
           Size.Height = 53.000000000000000000
           Size.PlatformDefault = False
           Stroke.Kind = None
@@ -341,7 +358,7 @@ object Form2: TForm2
           object Rectangle8: TRectangle
             Align = Client
             Fill.Color = claWhite
-            Size.Width = 64.800003051757810000
+            Size.Width = 65.199996948242190000
             Size.Height = 53.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
@@ -983,7 +1000,7 @@ object Form2: TForm2
         object Rectangle4: TRectangle
           Align = Client
           Fill.Color = claWhite
-          Size.Width = 64.800003051757810000
+          Size.Width = 65.199996948242190000
           Size.Height = 53.000000000000000000
           Size.PlatformDefault = False
           Stroke.Kind = None
@@ -992,7 +1009,7 @@ object Form2: TForm2
           object Rectangle9: TRectangle
             Align = Client
             Fill.Color = claWhite
-            Size.Width = 64.800003051757810000
+            Size.Width = 65.199996948242190000
             Size.Height = 53.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
@@ -1481,7 +1498,7 @@ object Form2: TForm2
         object Rectangle5: TRectangle
           Align = Client
           Fill.Color = claWhite
-          Size.Width = 64.800003051757810000
+          Size.Width = 65.199996948242190000
           Size.Height = 53.000000000000000000
           Size.PlatformDefault = False
           Stroke.Kind = None
@@ -1490,7 +1507,7 @@ object Form2: TForm2
           object Rectangle10: TRectangle
             Align = Client
             Fill.Color = claWhite
-            Size.Width = 64.800003051757810000
+            Size.Width = 65.199996948242190000
             Size.Height = 53.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
@@ -2264,7 +2281,7 @@ object Form2: TForm2
         object Rectangle2: TRectangle
           Align = Client
           Fill.Kind = None
-          Size.Width = 64.800003051757810000
+          Size.Width = 65.199996948242190000
           Size.Height = 53.000000000000000000
           Size.PlatformDefault = False
           Stroke.Kind = None
@@ -2273,7 +2290,7 @@ object Form2: TForm2
           object Rectangle7: TRectangle
             Align = Client
             Fill.Color = claWhite
-            Size.Width = 64.800003051757810000
+            Size.Width = 65.199996948242190000
             Size.Height = 53.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
@@ -2297,7 +2314,7 @@ object Form2: TForm2
               Margins.Bottom = 5.000000000000000000
               Position.X = 20.000000000000000000
               Position.Y = 45.000000000000000000
-              Size.Width = 24.800003051757810000
+              Size.Width = 25.199996948242190000
               Size.Height = 3.000000000000000000
               Size.PlatformDefault = False
               Stroke.Kind = None
@@ -2900,7 +2917,7 @@ object Form2: TForm2
         object Rectangle6: TRectangle
           Align = Client
           Fill.Color = claWhite
-          Size.Width = 64.799987792968750000
+          Size.Width = 65.200012207031250000
           Size.Height = 53.000000000000000000
           Size.PlatformDefault = False
           Stroke.Kind = None
@@ -2909,7 +2926,7 @@ object Form2: TForm2
           object Rectangle11: TRectangle
             Align = Client
             Fill.Color = claWhite
-            Size.Width = 64.799987792968750000
+            Size.Width = 65.200012207031250000
             Size.Height = 53.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
@@ -4434,7 +4451,14 @@ object Form2: TForm2
             Name = 'house'
           end>
       end>
-    Left = 104
-    Top = 393
+    Left = 48
+    Top = 521
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 264
+    Top = 264
   end
 end

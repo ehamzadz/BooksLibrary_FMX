@@ -10,47 +10,46 @@ inherited frmLoading_SmXhdpiPh: TfrmLoading_SmXhdpiPh
       Size.Height = 375.000000000000000000
       Sizes = (
         250s
-        375s
+        326s
         250s
-        375s
+        326s
         250s
-        375s
+        326s
         250s
-        375s
+        326s
         250s
-        375s)
+        326s)
       inherited TabItem1: TTabItem
+        Size.Width = 50.000000000000000000
         ExplicitSize.cx = 8.000000000000000000
         ExplicitSize.cy = 8.000000000000000000
         inherited VertScrollBox1: TVertScrollBox
           Size.Width = 250.000000000000000000
-          Size.Height = 375.000000000000000000
+          Size.Height = 326.000000000000000000
           Viewport.Width = 250.000000000000000000
-          Viewport.Height = 375.000000000000000000
-          inherited Text1: TText
-            Size.Width = 250.000000000000000000
-            Size.Height = 375.000000000000000000
-          end
+          Viewport.Height = 326.000000000000000000
         end
       end
       inherited TabItem2: TTabItem
+        Size.Width = 50.000000000000000000
         ExplicitSize.cx = 8.000000000000000000
         ExplicitSize.cy = 8.000000000000000000
         inherited VertScrollBox2: TVertScrollBox
           Size.Width = 250.000000000000000000
-          Size.Height = 375.000000000000000000
-          Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Size.Height = 326.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 326.000000000000000000
         end
       end
       inherited TabItem3: TTabItem
+        Size.Width = 50.000000000000000000
         ExplicitSize.cx = 8.000000000000000000
         ExplicitSize.cy = 8.000000000000000000
         inherited VertScrollBox3: TVertScrollBox
           Size.Width = 250.000000000000000000
-          Size.Height = 375.000000000000000000
-          Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Size.Height = 326.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 326.000000000000000000
           inherited Text3: TText
             inherited Switch1: TSwitch
               Size.Height = 33.000000000000000000
@@ -63,28 +62,36 @@ inherited frmLoading_SmXhdpiPh: TfrmLoading_SmXhdpiPh
         end
       end
       inherited TabItem4: TTabItem
+        Size.Width = 50.000000000000000000
         ExplicitSize.cx = 8.000000000000000000
         ExplicitSize.cy = 8.000000000000000000
         inherited VertScrollBox4: TVertScrollBox
           Size.Width = 250.000000000000000000
-          Size.Height = 375.000000000000000000
-          Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Size.Height = 326.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 326.000000000000000000
+          inherited Text4: TText
+            Size.Width = 250.000000000000000000
+            Size.Height = 326.000000000000000000
+          end
           inherited Rectangle12: TRectangle
-            inherited SpeedButton1: TSpeedButton
-              Size.Height = 50.000000000000000000
+            Size.Width = 210.000000000000000000
+            inherited Edit1: TEdit
+              Margins.Left = 20.000000000000000000
+              Size.Width = 190.000000000000000000
             end
           end
         end
       end
       inherited TabItem5: TTabItem
+        Size.Width = 50.000000000000000000
         ExplicitSize.cx = 8.000000000000000000
         ExplicitSize.cy = 8.000000000000000000
         inherited VertScrollBox5: TVertScrollBox
           Size.Width = 250.000000000000000000
-          Size.Height = 375.000000000000000000
-          Viewport.Width = 360.000000000000000000
-          Viewport.Height = 720.000000000000000000
+          Size.Height = 326.000000000000000000
+          Viewport.Width = 250.000000000000000000
+          Viewport.Height = 326.000000000000000000
         end
       end
     end
@@ -151,5 +158,9 @@ inherited frmLoading_SmXhdpiPh: TfrmLoading_SmXhdpiPh
         end
       end
     end
+  end
+  inherited StyleBook1: TStyleBook [4]
+  end
+  inherited ImageList1: TImageList [5]
   end
 end

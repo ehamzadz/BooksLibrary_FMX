@@ -1,4 +1,4 @@
-object Form2: TForm2
+object frmLoading: TfrmLoading
   Left = 0
   Top = 0
   Caption = 'Form2'
@@ -11,6 +11,13 @@ object Form2: TForm2
   FullScreen = True
   OnCreate = FormCreate
   DesignerMasterStyle = 3
+  object TBrushObject
+    StyleName = 'light grey'
+  end
+  object light_grey: TBrushObject
+    StyleName = 'light_grey'
+    Brush.Color = xFFEEEEEE
+  end
   object Rectangle1: TRectangle
     Align = Contents
     Fill.Color = xFFEEEEEE
@@ -158,8 +165,8 @@ object Form2: TForm2
             Size.PlatformDefault = False
             TabOrder = 1
             Visible = False
-            Viewport.Width = 322.000000000000000000
-            Viewport.Height = 410.000000000000000000
+            Viewport.Width = 330.000000000000000000
+            Viewport.Height = 418.000000000000000000
           end
         end
       end
@@ -4434,7 +4441,7 @@ object Form2: TForm2
             Name = 'house'
           end>
       end>
-    Left = 104
-    Top = 393
+    Left = 48
+    Top = 521
   end
 end

@@ -61,6 +61,8 @@ type
     ColorAnimation5: TColorAnimation;
     Rectangle13: TRectangle;
     light_grey: TBrushObject;
+    Edit1: TEdit;
+    StyleBook1: TStyleBook;
     procedure FormCreate(Sender: TObject);
     procedure Rectangle7Click(Sender: TObject);
     procedure Rectangle8Click(Sender: TObject);

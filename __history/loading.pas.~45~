@@ -10,10 +10,10 @@ uses
   REST.Backend.PushTypes, REST.Backend.MetaTypes, System.JSON,
   System.PushNotification, REST.Backend.BindSource, REST.Backend.PushDevice,
   Data.Bind.Components, Data.Bind.ObjectScope, REST.Backend.ServiceComponents, FMX.PushNotification.Android,
-  RTL.Controls, FMX.Edit;
+  RTL.Controls, FMX.Edit, System.ImageList, FMX.ImgList;
 
 type
-  TForm2 = class(TForm)
+  TfrmLoading = class(TForm)
     Rectangle1: TRectangle;
     tabs: TRectangle;
     Tab: TTabControl;
@@ -35,13 +35,8 @@ type
     ColorAnimation1: TColorAnimation;
     Rectangle7: TRectangle;
     Rectangle8: TRectangle;
-    ColorAnimation2: TColorAnimation;
     Rectangle9: TRectangle;
-    ColorAnimation3: TColorAnimation;
     Rectangle10: TRectangle;
-    ColorAnimation4: TColorAnimation;
-    Rectangle11: TRectangle;
-    ColorAnimation5: TColorAnimation;
     MemoLog: TMemo;
     Text1: TText;
     VertScrollBox2: TVertScrollBox;
@@ -58,6 +53,14 @@ type
     Rectangle12: TRectangle;
     SpeedButton1: TSpeedButton;
     Switch1: TSwitch;
+    ImageList1: TImageList;
+    ColorAnimation2: TColorAnimation;
+    ColorAnimation3: TColorAnimation;
+    ColorAnimation4: TColorAnimation;
+    Rectangle11: TRectangle;
+    ColorAnimation5: TColorAnimation;
+    Rectangle13: TRectangle;
+    light_grey: TBrushObject;
     procedure FormCreate(Sender: TObject);
     procedure Rectangle7Click(Sender: TObject);
     procedure Rectangle8Click(Sender: TObject);
@@ -77,14 +80,14 @@ type
   end;
 
 var
-  Form2: TForm2;
+  frmLoading: TfrmLoading;
 
 implementation
 
 {$R *.fmx}
 {$R *.SmXhdpiPh.fmx ANDROID}
 
-procedure TForm2.FormCreate(Sender: TObject);
+procedure TfrmLoading.FormCreate(Sender: TObject);
 var
    PushService: TPushService;
    ServiceConnection: TPushServiceConnection;
@@ -114,7 +117,7 @@ begin
      end;
 end;
 
-procedure TForm2.OnReceiveNotificationEvent(Sender: TObject;
+procedure TfrmLoading.OnReceiveNotificationEvent(Sender: TObject;
   const ServiceNotification: TPushServiceNotification);
 var
    MessageText: string;
@@ -127,7 +130,7 @@ begin
     MemoLog.Lines.Add('---------------------------------------');
 end;
 
-procedure TForm2.OnServiceConnectionChange(Sender: TObject;
+procedure TfrmLoading.OnServiceConnectionChange(Sender: TObject;
   PushChanges: TPushService.TChanges);
 var
    PushService: TPushService;
@@ -147,7 +150,7 @@ end;
 
 
 
-procedure TForm2.Rectangle10Click(Sender: TObject);
+procedure TfrmLoading.Rectangle10Click(Sender: TObject);
 var
   this :TButton;
 begin
@@ -156,7 +159,7 @@ begin
   tab.TabIndex := 3;
 end;
 
-procedure TForm2.Rectangle11Click(Sender: TObject);
+procedure TfrmLoading.Rectangle11Click(Sender: TObject);
 var
   this :TButton;
 begin
@@ -165,7 +168,7 @@ begin
   tab.TabIndex := 4;
 end;
 
-procedure TForm2.Rectangle7Click(Sender: TObject);
+procedure TfrmLoading.Rectangle7Click(Sender: TObject);
 var
   this :TButton;
 begin
@@ -175,7 +178,7 @@ begin
   tab.TabIndex := 0;
 end;
 
-procedure TForm2.Rectangle8Click(Sender: TObject);
+procedure TfrmLoading.Rectangle8Click(Sender: TObject);
 var
   this :TButton;
 begin
@@ -184,7 +187,7 @@ begin
   tab.TabIndex := 1;
 end;
 
-procedure TForm2.Rectangle9Click(Sender: TObject);
+procedure TfrmLoading.Rectangle9Click(Sender: TObject);
 var
   this :TButton;
 begin
@@ -193,9 +196,9 @@ begin
   tab.TabIndex := 2;
 end;
 
-procedure TForm2.Switch1Switch(Sender: TObject);
+procedure TfrmLoading.Switch1Switch(Sender: TObject);
 begin
-  if MemoLog.Visible = 'true' then MemoLog.Visible :=false
+  if (MemoLog.Visible = true) then MemoLog.Visible :=false
   else MemoLog.Visible := true;
 end;
 
