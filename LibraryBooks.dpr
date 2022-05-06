@@ -5,14 +5,16 @@ uses
   FMX.Forms,
   loading in 'loading.pas' {frmLoading},
   load in 'load.pas' {frmLoad},
-  loadingIcon in 'loadingIcon.pas' {Form1};
+  loadingIcon in 'loadingIcon.pas' {Form1},
+  login in 'login.pas' {Form2};
 
 {$R *.res}
 
 begin
   Application.Initialize;
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm1, Form1);
   Application.CreateForm(TfrmLoad, frmLoad);
   Application.CreateForm(TfrmLoading, frmLoading);
-  Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.

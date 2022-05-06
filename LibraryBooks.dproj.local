@@ -3,18 +3,21 @@
 	<Transactions>
     <Transaction>2022/04/30 21:53:18.000.049,=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2022/05/01 00:33:17.000.446,=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2022/05/01 00:35:42.000.923,C:\Users\eHamzaDZ\Desktop\New folder\loading.fmx=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
     <Transaction>2022/05/01 00:35:42.000.923,C:\Users\eHamzaDZ\Desktop\New folder\loading.pas=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/01 00:35:42.000.923,C:\Users\eHamzaDZ\Desktop\New folder\loading.fmx=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
     <Transaction>2022/05/01 00:36:05.000.994,C:\Users\eHamzaDZ\Desktop\New folder\LibraryBooks.dproj=C:\Users\eHamzaDZ\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
     <Transaction>2022/05/01 21:55:34.000.192,=C:\Users\eHamzaDZ\Desktop\AndroidManifest.template.xml</Transaction>
-    <Transaction>2022/05/05 00:40:59.214,=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
-    <Transaction>2022/05/05 00:41:51.306,D:\Github\Android App\BooksLibrary_FMX\load.pas=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
-    <Transaction>2022/05/05 00:41:51.306,D:\Github\Android App\BooksLibrary_FMX\load.fmx=D:\Github\Android App\BooksLibrary_FMX\Unit1.fmx</Transaction>
-    <Transaction>2022/05/05 01:29:41.954,=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
-    <Transaction>2022/05/05 01:32:20.981,D:\Github\Android App\BooksLibrary_FMX\loadingIcon.fmx=D:\Github\Android App\BooksLibrary_FMX\Unit1.fmx</Transaction>
-    <Transaction>2022/05/05 01:32:20.981,D:\Github\Android App\BooksLibrary_FMX\loadingIcon.pas=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 00:40:59.000.214,=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 00:41:51.000.306,D:\Github\Android App\BooksLibrary_FMX\load.fmx=D:\Github\Android App\BooksLibrary_FMX\Unit1.fmx</Transaction>
+    <Transaction>2022/05/05 00:41:51.000.306,D:\Github\Android App\BooksLibrary_FMX\load.pas=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 01:29:41.000.954,=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 01:32:20.000.981,D:\Github\Android App\BooksLibrary_FMX\loadingIcon.pas=D:\Github\Android App\BooksLibrary_FMX\Unit1.pas</Transaction>
+    <Transaction>2022/05/05 01:32:20.000.981,D:\Github\Android App\BooksLibrary_FMX\loadingIcon.fmx=D:\Github\Android App\BooksLibrary_FMX\Unit1.fmx</Transaction>
+    <Transaction>2022/05/06 03:07:28.000.202,=D:\Github\Android App\BooksLibrary_FMX\Unit2.pas</Transaction>
+    <Transaction>2022/05/06 03:07:36.000.400,D:\Github\Android App\BooksLibrary_FMX\Unit2.pas=D:\Github\Android App\BooksLibrary_FMX\login.pas</Transaction>
+    <Transaction>2022/05/06 03:07:36.000.400,D:\Github\Android App\BooksLibrary_FMX\Unit2.fmx=D:\Github\Android App\BooksLibrary_FMX\login.fmx</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android64="33006584c0c9a38d" Android=""/>
+		<NoProfile Android64="33006584c0c9a38d" Android="33006584c0c9a38d"/>
 	</ActiveMobileDevice>
 </BorlandProject>
