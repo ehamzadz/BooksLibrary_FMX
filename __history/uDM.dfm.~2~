@@ -1,0 +1,15 @@
+object DM: TDM
+  Height = 419
+  Width = 611
+  PixelsPerInch = 96
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Server=sql112.byetcluster.com'
+      'User_Name=epiz_31575588'
+      'Database=epiz_31575588_librarybooks'
+      'Password=nBoXynSf8mB'
+      'DriverID=MySQL')
+    Left = 152
+    Top = 176
+  end
+end
