@@ -18,6 +18,6 @@
     <Transaction>2022/05/06 03:07:36.000.400,D:\Github\Android App\BooksLibrary_FMX\Unit2.fmx=D:\Github\Android App\BooksLibrary_FMX\login.fmx</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android64="33006584c0c9a38d" Android="33006584c0c9a38d"/>
+		<NoProfile Android64="33006584c0c9a38d" Android=""/>
 	</ActiveMobileDevice>
 </BorlandProject>
