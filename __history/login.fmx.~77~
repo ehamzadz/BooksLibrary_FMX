@@ -2011,7 +2011,6 @@ object Form2: TForm2
   end
   object Rectangle9: TRectangle
     Fill.Kind = None
-    Position.Y = 720.000000000000000000
     Size.Width = 360.000000000000000000
     Size.Height = 720.000000000000000000
     Size.PlatformDefault = False
@@ -4193,9 +4192,9 @@ object Form2: TForm2
           Position.X = 30.000000000000000000
           Position.Y = 74.000000000000000000
           Size.Width = 300.000000000000000000
-          Size.Height = 29.000000000000000000
+          Size.Height = 47.000000000000000000
           Size.PlatformDefault = False
-          Text = 'Hello there, create an account to continue!'
+          Text = 'Create an account to continue!'
           TextSettings.Font.Family = 'Tajawal'
           TextSettings.Font.Size = 16.000000000000000000
           TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -4210,7 +4209,7 @@ object Form2: TForm2
           Margins.Top = 15.000000000000000000
           Margins.Right = 30.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 118.000000000000000000
+          Position.Y = 136.000000000000000000
           Size.Width = 300.000000000000000000
           Size.Height = 75.000000000000000000
           Size.PlatformDefault = False
@@ -4254,7 +4253,7 @@ object Form2: TForm2
           Margins.Top = 15.000000000000000000
           Margins.Right = 30.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 298.000000000000000000
+          Position.Y = 316.000000000000000000
           Size.Width = 300.000000000000000000
           Size.Height = 75.000000000000000000
           Size.PlatformDefault = False
@@ -4298,7 +4297,7 @@ object Form2: TForm2
           Margins.Top = 15.000000000000000000
           Margins.Right = 30.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 208.000000000000000000
+          Position.Y = 226.000000000000000000
           Size.Width = 300.000000000000000000
           Size.Height = 75.000000000000000000
           Size.PlatformDefault = False
@@ -4362,9 +4361,9 @@ object Form2: TForm2
           Margins.Right = 30.000000000000000000
           Margins.Bottom = 20.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 388.000000000000000000
+          Position.Y = 406.000000000000000000
           Size.Width = 300.000000000000000000
-          Size.Height = 75.000000000000000000
+          Size.Height = 57.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Family = 'Tajawal'
           TextSettings.Font.Size = 14.000000000000000000
@@ -4375,7 +4374,7 @@ object Form2: TForm2
           object Rectangle17: TRectangle
             Align = Bottom
             Fill.Color = xFF3360AC
-            Position.Y = 32.000000000000000000
+            Position.Y = 14.000000000000000000
             Size.Width = 300.000000000000000000
             Size.Height = 43.000000000000000000
             Size.PlatformDefault = False
@@ -6428,7 +6427,7 @@ object Form2: TForm2
             Size.Height = 41.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
-            OnClick = Rectangle11Click
+            OnClick = Rectangle19Click
             object Image2: TImage
               MultiResBitmap.Height = 512
               MultiResBitmap.Width = 512
@@ -6753,7 +6752,7 @@ object Form2: TForm2
         AnimationType = Out
         Delay = 0.500000000000000000
         Duration = 0.200000002980232200
-        OnFinish = back_title_opacityFinish
+        OnFinish = FloatAnimation5Finish
         PropertyName = 'Opacity'
         StartValue = 0.000000000000000000
         StopValue = 1.000000000000000000
@@ -6786,7 +6785,7 @@ object Form2: TForm2
           Position.X = 30.000000000000000000
           Position.Y = 74.000000000000000000
           Size.Width = 300.000000000000000000
-          Size.Height = 29.000000000000000000
+          Size.Height = 63.000000000000000000
           Size.PlatformDefault = False
           Text = 'Hello there, sign in to continue!'
           TextSettings.Font.Family = 'Tajawal'
@@ -6803,7 +6802,7 @@ object Form2: TForm2
           Margins.Top = 15.000000000000000000
           Margins.Right = 30.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 118.000000000000000000
+          Position.Y = 152.000000000000000000
           Size.Width = 300.000000000000000000
           Size.Height = 75.000000000000000000
           Size.PlatformDefault = False
@@ -6867,9 +6866,9 @@ object Form2: TForm2
           Margins.Right = 30.000000000000000000
           Margins.Bottom = 20.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 298.000000000000000000
+          Position.Y = 332.000000000000000000
           Size.Width = 300.000000000000000000
-          Size.Height = 75.000000000000000000
+          Size.Height = 57.000000000000000000
           Size.PlatformDefault = False
           TextSettings.Font.Family = 'Tajawal'
           TextSettings.Font.Size = 14.000000000000000000
@@ -6880,14 +6879,14 @@ object Form2: TForm2
           object Rectangle24: TRectangle
             Align = Bottom
             Fill.Color = xFF3360AC
-            Position.Y = 32.000000000000000000
+            Position.Y = 14.000000000000000000
             Size.Width = 300.000000000000000000
             Size.Height = 43.000000000000000000
             Size.PlatformDefault = False
             Stroke.Kind = None
             XRadius = 15.000000000000000000
             YRadius = 15.000000000000000000
-            OnClick = Rectangle17Click
+            OnClick = Rectangle24Click
             object Text26: TText
               Align = Center
               HitTest = False
@@ -6910,7 +6909,7 @@ object Form2: TForm2
           Margins.Right = 30.000000000000000000
           Margins.Bottom = 40.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 408.000000000000000000
+          Position.Y = 424.000000000000000000
           Size.Width = 300.000000000000000000
           Size.Height = 23.000000000000000000
           Size.PlatformDefault = False
@@ -6928,7 +6927,7 @@ object Form2: TForm2
           Margins.Top = 15.000000000000000000
           Margins.Right = 30.000000000000000000
           Position.X = 30.000000000000000000
-          Position.Y = 208.000000000000000000
+          Position.Y = 242.000000000000000000
           Size.Width = 300.000000000000000000
           Size.Height = 75.000000000000000000
           Size.PlatformDefault = False
@@ -6971,10 +6970,28 @@ object Form2: TForm2
       AnimationType = Out
       Duration = 1.000000000000000000
       Interpolation = Quartic
-      OnFinish = FloatAnimation2Finish
+      OnFinish = FloatAnimation6Finish
       PropertyName = 'Position.Y'
       StartValue = 720.000000000000000000
       StopValue = 0.000000000000000000
+    end
+  end
+  object Line3: TLine
+    Align = Left
+    LineType = Top
+    Size.Width = 0.000000000000000000
+    Size.Height = 720.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claCoral
+    Stroke.Thickness = 5.000000000000000000
+    object FloatAnimation7: TFloatAnimation
+      AnimationType = Out
+      Duration = 2.000000000000000000
+      Interpolation = Circular
+      OnFinish = FloatAnimation7Finish
+      PropertyName = 'Width'
+      StartValue = 0.000000000000000000
+      StopValue = 360.000000000000000000
     end
   end
 end

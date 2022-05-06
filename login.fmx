@@ -2011,6 +2011,7 @@ object Form2: TForm2
   end
   object Rectangle9: TRectangle
     Fill.Kind = None
+    Position.Y = 720.000000000000000000
     Size.Width = 360.000000000000000000
     Size.Height = 720.000000000000000000
     Size.PlatformDefault = False
